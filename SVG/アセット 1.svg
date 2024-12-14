@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1449.39 1067.87">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .85;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        opacity: .69;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <ellipse class="cls-3" cx="639.98" cy="631.01" rx="549.3" ry="307.42"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="38.46" y="12.94" width="524.22" height="1054.92"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-3" x="593.43" width="736.18" height="1067.87"/>
+    </clipPath>
+    <image id="image" width="1200" height="1000" xlink:href="../mediadesign1.png"/>
+    <image id="image-2" width="1200" height="1000" xlink:href="../mediadesign2.png"/>
+    <image id="image-3" width="1200" height="1000" xlink:href="../mediadesign3.png"/>
+  </defs>
+  <g id="layer1">
+    <g>
+      <use transform="translate(214.78 236.16) scale(.71)" xlink:href="#image"/>
+      <use transform="translate(214.78 236.16) scale(.71)" xlink:href="#image-2"/>
+    </g>
+  </g>
+  <g id="layer2">
+    <g class="cls-6">
+      <use class="cls-5" transform="translate(214.78 359.83) scale(.71)" xlink:href="#image-3"/>
+    </g>
+    <g class="cls-4">
+      <use transform="translate(145.78 236.16) scale(.71)" xlink:href="#image-2"/>
+    </g>
+    <g class="cls-2">
+      <use transform="translate(394.78 236.16) scale(.71)" xlink:href="#image"/>
+    </g>
+  </g>
+  <g id="layer3">
+    <use class="cls-1" transform="translate(214.78 239.83) scale(.71)" xlink:href="#image-3"/>
+    <use transform="translate(599 209.53) scale(.71)" xlink:href="#image"/>
+    <use transform="translate(0 209.53) scale(.71)" xlink:href="#image-2"/>
+    <image width="1200" height="1000" transform="translate(214.78 236.16) scale(.71)" xlink:href="../mediadesign4.png"/>
+  </g>
+  <g id="layer4">
+    <use transform="translate(214.78 236.16) scale(.71)" xlink:href="#image-3"/>
+    <image width="1200" height="1000" transform="translate(214.78 236.16) scale(.71)" xlink:href="../mediadesign5.png"/>
+  </g>
+</svg>
