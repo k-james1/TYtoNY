@@ -8,7 +8,7 @@ gsap.set('#layer1', {opacity: 1});
 
 ScrollTrigger.create({
     trigger: imageContainer,
-    start:'top 5%',
+    start:'top 3%',
     end:'+=2000',
     pin: true,
     scrub: true,
@@ -43,14 +43,14 @@ gsap.from("body",{
 
 
 
-    gsap.fromTo(".title span", {autoAlpha: 0, y: 20}, {
-      duration: 1,
-      autoAlpha: 1,
-      y: 0,
-      ease: 'power4.inOut',
-      scrollTrigger: {
-        trigger: "title",
-        start: 'top 50%',
-        
-      }
-    });
+  gsap.fromTo(".title", {autoAlpha: 0, y: 20}, 
+    {duration: .6,
+    autoAlpha: 1,
+    y: 0,
+    ease: 'power4.inOut',
+    scrollTrigger: {
+      trigger: ".title",
+      start: 'top 60%',
+    }
+  });
+

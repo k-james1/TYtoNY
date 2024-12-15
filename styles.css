@@ -1,25 +1,39 @@
-    body{
+@font-face {
+    font-family:"Edu_VIC_WA_NT_Beginner";
+    src:url("Edu_VIC_WA_NT_Beginner/EduVICWANTBeginner-VariableFont_wght.ttf") format("truetype");
+   }
+
+   body{
+        font-family:"Edu_VIC_WA_NT_Beginner";
         background-color:rgb(214, 189, 216);
+        padding-right:10px;
+        padding-left:10px;
     }
     .dummy {
     height: 500px;
+    margin-bottom:20%;
     padding-top:20%;
     }
-    h1 {
+    .box{
+        background-color:beige;
+        border-radius:  30% 70% 35% 65% / 50% 50% 50% 50%;;
+        height:50vh;
+        border: double 8px #1e4398;
+        justify-content:center;
         text-align: center;
-        font-size: 40px;
-        color:rgb(215, 215, 229);
-        padding-bottom:10%;
     }
+    .box-p{
+        font-size:30%;
+        padding-bottom:10%; 
+    }
+    h1,
     h2 {
         text-align: center;
         font-size: 40px;
         color:rgb(215, 215, 229);
         padding-bottom:10%;
     }
-    .title span{
-        opacity:0;
-    }
+
     .container {
     height: 100vh;
     display: flex;
@@ -40,5 +54,9 @@
     .static-image,
     .animated-gif {
     width: 96%;
+    }
+    h1,
+    h2 {
+        font-size: 30px;
     }
     }
