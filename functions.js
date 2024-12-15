@@ -40,3 +40,17 @@ gsap.from("body",{
     backgroundColor:"#1F456E",
     ease:"none",
   });
+
+
+
+    gsap.fromTo(".title span", {autoAlpha: 0, y: 20}, {
+      duration: 1,
+      autoAlpha: 1,
+      y: 0,
+      ease: 'power4.inOut',
+      scrollTrigger: {
+        trigger: "title",
+        start: 'top 50%',
+        
+      }
+    });
