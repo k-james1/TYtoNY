@@ -41,8 +41,6 @@ gsap.from("body",{
     ease:"none",
   });
 
-
-
   gsap.fromTo(".title", {autoAlpha: 0, y: 20}, 
     {duration: .6,
     autoAlpha: 1,
@@ -51,6 +49,28 @@ gsap.from("body",{
     scrollTrigger: {
       trigger: ".title",
       start: 'top 60%',
+    }
+  });
+
+  gsap.fromTo(".box", {autoAlpha: 0, y: 20}, 
+    {duration: .6,
+    autoAlpha: 1,
+    y: 0,
+    ease: 'power4.inOut',
+    scrollTrigger: {
+      trigger: ".box",
+      start: 'top 60%',
+    }
+  });
+
+  gsap.fromTo(".box bye", {autoAlpha: 0, y: 20}, 
+    {duration: .6,
+    autoAlpha: 1,
+    y: 0,
+    ease: 'power4.inOut',
+    scrollTrigger: {
+      trigger: ".box bye",
+      start: 'top 90%',
     }
   });
 

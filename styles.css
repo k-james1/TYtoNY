@@ -17,14 +17,15 @@
     .box{
         background-color:beige;
         border-radius:  30% 70% 35% 65% / 50% 50% 50% 50%;;
-        height:50vh;
+        height:65%;
         border: double 8px #1e4398;
         justify-content:center;
         text-align: center;
+        padding-top:15%;
     }
-    .box-p{
-        font-size:30%;
-        padding-bottom:10%; 
+    .box p{
+        font-size:40px;
+        margin:20px 30px 20px 30px;       
     }
     h1,
     h2 {
@@ -50,6 +51,14 @@
     .animated-gif {
     opacity: 0;
     }
+
+    @media screen and (max-width: 600px){
+        .box p{
+            font-size:30px;
+        }
+    }
+
+
     @media screen and (max-width: 480px) {
     .static-image,
     .animated-gif {
@@ -58,5 +67,11 @@
     h1,
     h2 {
         font-size: 30px;
+    }
+    .box p{
+        font-size:24px;
+    }
+    .box{
+        padding-top:20%;
     }
     }
